@@ -24,18 +24,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonObjectAddFindProjectionTest">
-    <configuration name="JSONApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSONApp" />
+  <component name="RunManager" selected="JUnit.StudentTest">
+    <configuration name="BasicStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam_ucu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.BasicStudentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonBooleanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam_ucu" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONAppTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="json" />
+      <option name="MAIN_CLASS_NAME" value="json.JsonBooleanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam_ucu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="json" />
+      <option name="MAIN_CLASS_NAME" value="json.JsonNullTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,45 +85,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonObjectAddFindProjectionTest.testAddToEmptyJsonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam_ucu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="json" />
-      <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
-      <option name="METHOD_NAME" value="testAddToEmptyJsonObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonObjectAddFindProjectionTest.testAddUpdateExistingValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exam_ucu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="json" />
-      <option name="MAIN_CLASS_NAME" value="json.JsonObjectAddFindProjectionTest" />
-      <option name="METHOD_NAME" value="testAddUpdateExistingValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.BasicStudentTest" />
+        <item itemvalue="JUnit.JsonBooleanTest" />
+        <item itemvalue="JUnit.JsonNullTest" />
         <item itemvalue="JUnit.JsonObjectAddFindProjectionTest" />
-        <item itemvalue="JUnit.JSONAppTest" />
-        <item itemvalue="JUnit.JsonObjectAddFindProjectionTest.testAddUpdateExistingValue" />
-        <item itemvalue="JUnit.JsonObjectAddFindProjectionTest.testAddToEmptyJsonObject" />
-        <item itemvalue="Application.JSONApp" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
